@@ -1,0 +1,16 @@
+{
+  "name": "eslintproj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint --fix src/**"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^6.2.0",
+    "eslint-config-google": "^0.13.0"
+  }
+}
